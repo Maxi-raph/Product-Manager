@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import { useParams,Link } from "react-router";
 import { FaCheckCircle, FaArrowLeft } from "react-icons/fa";
+import { useProducts } from "../context/ProductContext";
 
 
-const EditProduct = ({editProduct}) => {
+const EditProduct = () => {
 const [edit,setEdit] = useState({category:'',price:''})
 const [isEdited,setIsEdited] = useState(false)
 
 const {id} = useParams()
-
+const {editProduct} = useProducts()
  
     useEffect(()=>{
   const handleEnter = (e)=> e.key === 'Enter' ? editProduct(id,edit.category,edit.price,setEdit,setIsEdited):''

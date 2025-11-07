@@ -1,8 +1,10 @@
 import { useNavigate } from "react-router";
+import { useProducts } from "../context/ProductContext";
 
 
-const Products = ({products,deleteProduct}) => {
+const Products = () => {
     const navigate = useNavigate()
+    const {products,deleteProduct} = useProducts()
     return ( <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3"> 
         {products.map((prod,i)=>{
             return(
