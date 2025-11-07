@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "description": "Noise-cancelling headphones with deep bass and Bluetooth 5.0 support.",
+      "price": 59.99,
+      "quantity": 25,
+      "category": "Audio",
+      "rating": 4.5,
+      "image": "images/tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with crisp sound and 12-hour battery life.",
+      "price": 39.99,
+      "quantity": 40,
+      "category": "Audio",
+      "rating": 4.2,
+      "image": "images/jonas-jacobsson-VSYq9nS-fY0-unsplash.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Smartwatch",
+      "description": "Track fitness, receive notifications, and monitor your health stats.",
+      "price": 99.99,
+      "quantity": 15,
+      "category": "Wearables",
+      "rating": 4.7,
+      "image": "images/pratik-prasad-FPEBZJLD8Rs-unsplash.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Gaming Mouse",
+      "description": "Ergonomic mouse with customizable RGB lighting and 6 DPI levels.",
+      "price": 29.99,
+      "quantity": 50,
+      "category": "Accessories",
+      "rating": 4.3,
+      "image": "images/shri-cFOqLh7ZZJw-unsplash.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Mechanical Keyboard",
+      "description": "Tactile mechanical keys with a sleek aluminum frame.",
+      "price": 89.99,
+      "quantity": 30,
+      "category": "Accessories",
+      "rating": 4.8,
+      "image": "images/hiros-lee-363QFBAKuxM-unsplash.jpg"
+    },
+    {
+      "id": "6",
+      "name": "USB-C Hub",
+      "description": "Multi-port adapter with HDMI, USB 3.0, and SD card support.",
+      "price": 24.99,
+      "quantity": 100,
+      "category": "Adapters",
+      "rating": 4.1,
+      "image": "images/lasse-jensen-4nVJUZEJb3s-unsplash.jpg"
+    }
+  ]
+}
